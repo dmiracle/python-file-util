@@ -4,5 +4,7 @@ from pathlib import Path
 '''
 
 '''
+path = Path('.')
 
-print
+for p in path.iterdir():
+    print(p)
