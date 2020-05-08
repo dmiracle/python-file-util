@@ -1,6 +1,3 @@
 # python-file-util
 
-https://docs.python.org/3/library/pathlib.html
-
-https://www.python.org/dev/peps/pep-0428/
-
+See `filer.py`. The rest is python project boilerplate for running in a python 2.7.10 container.
