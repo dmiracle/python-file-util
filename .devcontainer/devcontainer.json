@@ -1,5 +1,5 @@
 {
-	"name": "Jupyter Starter",
+	"name": "Python Starter",
 	"context": "..",
 	"dockerFile": "Dockerfile",
 
@@ -17,11 +17,8 @@
 	},
 
 	// Specifies a command to run after the container is created
-	// "postCreateCommand": "jupyter notebook",
-		
 	// Install dependencies
-	// "postCreateCommand": "pip install -r requirements.txt",
-	"postCreateCommand": "pip install --upgrade pip",
+	"postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
 	
 	// Comment out next line to run as root
 	"remoteUser": "vscode",
