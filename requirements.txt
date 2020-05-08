@@ -1,4 +1,6 @@
-numpy
+pathlib
+pylint==1.9.3
+numpy==1.16.6
 scipy
 matplotlib
 notebook

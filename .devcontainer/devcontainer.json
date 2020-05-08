@@ -20,8 +20,9 @@
 	// "postCreateCommand": "jupyter notebook",
 		
 	// Install dependencies
-	"postCreateCommand": "pip install -r requirements.txt",
-
+	// "postCreateCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "pip install --upgrade pip",
+	
 	// Comment out next line to run as root
 	"remoteUser": "vscode",
 
